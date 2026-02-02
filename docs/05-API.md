@@ -1,11 +1,17 @@
 # 🔁 Configuración de la API
 
-Nuestroo servidor recopila datos de sensores conectados a microcontroladores ESP32. Para poder hacer esto, necesitamos configurar la API
+Nuestro servidor recopila datos de sensores conectados a microcontroladores ESP32. Para poder hacer esto, necesitamos configurar la API
 que lo permite.
 
 ## ⬇️ Instalación
 
 Usaremos el siguiente repositorio. [Repositorio de la API](https://github.com/ma-robles/pixca-ppm_api)
+
+Si no tenemos **git** instalado:
+
+```bash
+sudo apt install git
+```
 
 Podemos clonar el repositorio en una computadora externa y cargarlo mediante USB o clonarlo directamente en el servidor.
 
@@ -44,8 +50,8 @@ Y colocamos la siguiente configuración para el daemon.
   
   [Service]
   Type=simple
-  WorkingDirectory=/home/*user*/api-pm/
-  ExecStart=/usr/bin/node /home/*user*/api-pm/pm_api.js
+  WorkingDirectory=/home/*user*/pixca-ppm_api/
+  ExecStart=/usr/bin/node /home/*user*/pixca-ppm_api/pm_api.js
   Restart=on-failure
   
   [Install]
@@ -60,7 +66,7 @@ systemctl --user enable pixca.service
 systemctl --user start pixca.service
 ```
 
-> Nota: *user* debe ser remplazdo por el usuario con el que creaste el archivo. 
+> Nota: `user` debe ser remplazdo por el usuario con el que creaste el archivo. 
 
 Podemos verificar el estado con el siguiente comando.
 
