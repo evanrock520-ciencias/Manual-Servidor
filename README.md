@@ -12,8 +12,8 @@ Este repositorio sirve como manual para la configuración del servidor **Lenovo 
 2. [Instalación y Configuración de NGINX](docs/02-Nginx.md)
 3. [Firewall](docs/03-Firewall.md)
 4. [HTTPS](docs/04-HTTPS.md)
-5. [Despligue de la aplicación web](docs/05-Web.md)
-6. [Despliegue de la API](docs/06-API.md)
+5. [Despliegue de la API](docs/05-API.md)
+6. [Despligue de la aplicación web](docs/06-Web.md)
 
 ## Repositorios Utilizados
 
