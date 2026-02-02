@@ -11,7 +11,7 @@ cd /var/www/html
 sudo git clone https://github.com/ma-robles/pixca-ppm
 ```
 
-## Iniciar Servicio
+## 🚀 Iniciar Servicio
 
 Verificamos que nuestro archivo de **NGINX** tenga una correcta sintáxis.
 
@@ -27,7 +27,7 @@ Y reiniciamos el servicio.
 sudo systemctl restart nginx
 ```
 
-## Configurar Rutas
+## 🎯 Configurar Rutas
 
 Antes de poder usar nuestra API en conjunto con nuestra página web deberemos realizar algunas modificaciones a los repositorios.
 
