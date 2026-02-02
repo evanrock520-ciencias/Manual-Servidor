@@ -1,5 +1,9 @@
 # 🌐 Manual de configuración
 
+![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04-orange)
+![NGINX](https://img.shields.io/badge/NGINX-active-green)
+![ESP32](https://img.shields.io/badge/ESP32-integrated-blue)
+
 Este repositorio sirve como manual para la configuración del servidor **Lenovo Thinksystem SR250 V2** que tiene como propósito adquirir datos climáticos a partir de microcontroladores ESP32.
 
 ## 📚 Contenido
