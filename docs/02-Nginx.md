@@ -6,6 +6,7 @@ Para instalar en NGINX en Ubuntu Server simplemente corremos.
 
 ```bash
 sudo apt update
+sudo apt upgrade
 sudo apt install nginx -y
 ```
 
@@ -40,7 +41,7 @@ server {
     ssl_certificate     /etc/nginx/ssl/certificate.crt;
     ssl_certificate_key /etc/nginx/ssl/private.key;
 
-    root /var/www/html/pixca;
+    root /var/www/html/pixca-ppm;
 
     location / {
         try_files $uri $uri/ =404;

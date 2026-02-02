@@ -20,7 +20,7 @@ sudo openssl req -new -key /etc/nginx/ssl/private.key -out /etc/nginx/ssl/csr.cs
 Y finalmente generaremos el certificado.
 
 ```bash
-sudo openssl x509 -req -days 365 -in /etc/nginx/ssl/csr.csr -signkey /etc/nginx/ssl/private.key  -out etc/nginx/ssl/certificate.crt
+sudo openssl x509 -req -days 365 -in /etc/nginx/ssl/csr.csr -signkey /etc/nginx/ssl/private.key  -out /etc/nginx/ssl/certificate.crt
 ```
 
 Al ejecutar el comando de arriba se nos harán varias preguntas y es muy importante que el `Common name` corresponda con el nombre del **dominio web** o de la **dirección IP** de nuestro servidor.
@@ -29,4 +29,12 @@ Podemos verificar la clave generada con el siguiente comando.
 
 ```bash
 sudo openssl x509 -in /etc/nginx/ssl/certificate.crt -text -noout
+```
+
+Además como más tarde las usaremos en nuestra API deberemos dar permisos de lectura a los demás usuarios.
+
+```bash
+sudo chown -R root:www-data /etc/nginx/ssl
+sudo chmod 755 /etc/nginx/ssl
+sudo chmod 644 /etc/nginx/ssl/*
 ```

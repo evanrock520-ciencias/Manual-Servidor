@@ -32,8 +32,9 @@ sudo ufw allow "Nginx Full"
 sudo ufw allow OpenSSH
 ```
 
-Además para nuestra aplicación web usaremos el puerto `8081`, por lo que deberemos abrirlo también.
+Además para nuestra aplicación web usaremos el puerto `8041`y el `8080`, por lo que deberemos abrirlos también.
 
 ```bash
-sudo ufw allow 8081
+sudo ufw allow 8041
+sudo ufw allow 8080
 ```

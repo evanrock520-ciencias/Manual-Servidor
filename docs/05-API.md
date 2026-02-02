@@ -51,7 +51,7 @@ Y colocamos la siguiente configuración para el daemon.
   [Service]
   Type=simple
   WorkingDirectory=/home/*user*/pixca-ppm_api/
-  ExecStart=/usr/bin/node /home/*user*/pixca-ppm_api/pm_api.js
+  ExecStart=/usr/bin/node /home/*user*/pixca-ppm_api/pixca-ppm_api.js
   Restart=on-failure
   
   [Install]
