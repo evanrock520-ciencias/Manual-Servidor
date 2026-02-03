@@ -25,6 +25,10 @@ sudo openssl x509 -req -days 365 -in /etc/nginx/ssl/csr.csr -signkey /etc/nginx/
 
 Al ejecutar el comando de arriba se nos harán varias preguntas y es muy importante que el `Common name` corresponda con el nombre del **dominio web** o de la **dirección IP** de nuestro servidor.
 
+![Certificado](images/cert.png)
+
+> Ejemplo de certificado
+
 Podemos verificar la clave generada con el siguiente comando.
 
 ```bash
