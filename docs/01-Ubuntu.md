@@ -43,3 +43,5 @@ Y finalizamos la instalación.
 
 ![Final](images/p5.png)
 
+
+[Anterior](../README.md) | [Siguiente](02-Nginx.md)

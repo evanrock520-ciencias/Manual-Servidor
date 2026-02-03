@@ -38,3 +38,7 @@ sudo chown -R root:www-data /etc/nginx/ssl
 sudo chmod 755 /etc/nginx/ssl
 sudo chmod 644 /etc/nginx/ssl/*
 ```
+
+[Anterior](03-Firewall.md) | [Siguiente](05-API.md)
+
+

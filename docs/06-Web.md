@@ -119,3 +119,5 @@ Podras comprobar que la API funciona seleccionando la `pixca_ppm012`
 Si carga la selección de año entonces lo está haciendo correctamente. ✅
 
 ![Buscando](images/buscando.png)
+
+[Anterior](05-API.md) | [Siguiente](../README.md)

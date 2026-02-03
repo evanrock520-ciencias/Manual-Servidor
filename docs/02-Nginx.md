@@ -58,3 +58,4 @@ Ahora crearemos un enlace simbólico a nuestro archivo de configuración `pixca.
 sudo ln -s /etc/nginx/sites-available/pixca.config /etc/nginx/sites-enabled/
 ```
 
+[Anterior](01-Ubuntu.md) | [Siguiente](03-Firewall.md)
