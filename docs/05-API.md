@@ -116,4 +116,12 @@ Podemos verificar el estado con el siguiente comando.
     systemctl --user status pixca.service
 ```
 
+Como último paso deberemos asegurarnos de que al cerrar la sesión del usuario el demonio no pare. Para ello debemos ejecutar el siguiente comando.
+
+```bash
+loginctl enable-linger username
+```
+
+> Nota: Debes colocar tu usuario en lugar de `username`.
+
 [Anterior](04-HTTPS.md) | [Siguiente](06-Web.md)
