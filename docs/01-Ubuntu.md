@@ -14,7 +14,7 @@ sudo dd if=imagen.iso of=/dev/sdX bs=4M status=progress
 
 > Nota: imagen.iso es la ubicación de la imagen y `/dev/sdX` es la ubicación de tu USB. Puedes consultarla con el comando `lsblk`
 
-O usar una aplicación con Balena Etcher.
+Tambíen podrias usar una aplicación como [Balena Etcher](https://etcher.balena.io/) para flashear la USB.
 
 ## Inicializar servidor
 
